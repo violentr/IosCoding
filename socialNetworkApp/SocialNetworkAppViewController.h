@@ -10,4 +10,9 @@
 
 @interface SocialNetworkAppViewController : UIViewController
 
+@property (weak, nonatomic) IBOutlet UITextView *tweetTextView;
+
+
+
+
 @end

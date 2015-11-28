@@ -9,6 +9,8 @@
 #import "SocialNetworkAppViewController.h"
 
 @interface SocialNetworkAppViewController ()
+- (IBAction)postitButtonPressed:(id)sender;
+
 
 @end
 
@@ -26,4 +28,7 @@
     // Dispose of any resources that can be recreated.
 }
 
+- (IBAction)postitButtonPressed:(id)sender {
+    NSLog(@"post it button pressed !");
+}
 @end
